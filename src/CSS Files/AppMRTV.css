@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.new-body {
+    padding: 0 22%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, hsla(268, 50%, 89%, 1), hsla(208, 24%, 42%, 1), hsla(268, 50%, 89%, 1));
+}
+
+@media (max-width: 1080px) {
+    .new-body {
+        padding: 0 14%;
+    }
+}
+
+@media (max-width: 720px) {
+    .new-body {
+        padding: 0;
+    }
+}

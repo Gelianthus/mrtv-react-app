@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rowdies:wght@400;700&display=swap');
+/* 
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rowdies', cursive;
+ */
+
+/* 
+    hsla(259, 29%, 75%, 1) - light purple 
+    hsla(268, 50%, 89%, 1) - pink
+    hsla(204, 93%, 89%, 1) - light blue
+    hsla(208, 24%, 42%, 1) - blue purple
+    hsla(258, 20%, 33%, 1) - dark purple
+*/
+
+main {
+    background-color: white;
+    min-height: 100vh;
+    padding: 1rem 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page-intro {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Rowdies', cursive;
+}
+
+.page-intro>h1 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    color: hsla(258, 20%, 33%, 1);
+    word-wrap: break-word;
+}
+
+.page-intro>p {
+    font-size: 1.5rem;
+    color: hsla(258, 20%, 33%, 0.8);
+}
+
+@media (max-witdh: 720px) {
+    .page-intro>h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .page-intro>p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .page-intro>h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .page-intro>p {
+        font-size: 1.2rem;
+    }
+}
+
+.survey-section {
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.survey-sub-section {
+    margin: 2rem 0;
+    min-width: 100%;
+    padding: 0 2rem;
+}
+
+.survey-sub-section>p {
+    text-align: center;
+}
+
+.question {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    color: hsla(258, 20%, 33%, 1);
+    font-weight: bold;
+}
+
+.start-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.options-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+@media (max-width: 720px) {
+    .options-container {
+        flex-direction: column;
+    }
+}
+
+.btn {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    background-color: hsla(258, 20%, 33%, 1);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn:active {
+    background-color: hsla(259, 29%, 75%, 1);
+}
+
+.start-btn {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+@media (max-width: 720px) {
+    .start-btn {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .start-btn {
+        font-size: 1.2rem;
+    }
+}
+
+.option-btn {
+    font-size: 1.1rem;
+    flex: 1;
+}
+
+@media (max-width: 1080px) {
+    .option-btn {
+        font-size: 1rem;
+    }
+}
+
+.start-btn:active {
+    background-color: hsla(259, 29%, 75%, 1);
+}
+
+.restart-btn {
+    margin-left: 1rem;
+}
+
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tracklist {
+    margin: 2rem 0 0 0;
+    background-color: hsla(268, 50%, 89%, 1);
+    min-width: 100%;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+.track {
+    margin: 1rem 0;
+    color: hsla(258, 20%, 33%, 0.9);
+}
+
+.loading {
+    font-family: 'Roboto Mono', monospace;
+    color: hsla(258, 20%, 33%, 1);
+    text-align: center;
+}
+
+.download-link-container {
+    padding: 2rem;
+    background-color: hsla(208, 24%, 42%, 1);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pop-up-notice {
+    background-color: hsla(268, 50%, 89%, 1);
+    color: hsla(258, 20%, 33%, 1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    transition: 2s ease-in-out;
+    font-size: 1.5rem;
+    font-family: 'Rowdies', cursive;
+}
+
+.hidden {
+    display: none;
+}
