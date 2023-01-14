@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mrtv-react-app/static/css/main.0617ce53.css",
+    "main.js": "/mrtv-react-app/static/js/main.a850a1f9.js",
+    "static/js/787.3a037066.chunk.js": "/mrtv-react-app/static/js/787.3a037066.chunk.js",
+    "index.html": "/mrtv-react-app/index.html",
+    "main.0617ce53.css.map": "/mrtv-react-app/static/css/main.0617ce53.css.map",
+    "main.a850a1f9.js.map": "/mrtv-react-app/static/js/main.a850a1f9.js.map",
+    "787.3a037066.chunk.js.map": "/mrtv-react-app/static/js/787.3a037066.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0617ce53.css",
+    "static/js/main.a850a1f9.js"
+  ]
+}
